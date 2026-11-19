@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Create your account</h1>
+    <form onsubmit="event.preventDefault()">
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+        <br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your mail" required>
+        <br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" required placeholder="Enter your age">
+        <br><br>
+
+        <label for="about-me">About Me:</label><br>
+        <textarea name="about-me" id="about-me" rows="4" placeholder="Tell me something about yourself" required></textarea>
+        <br><br>
+
+        <label for="learning-track">Your learning track:</label><br>
+        <select name="learning-track" id="learning-track" required>
+            <option value="" selected disabled>Select a learning track</option>
+            <option value="linux">Linux Sysadmin</option>
+            <option value="frontend">Frontend Development</option>
+            <option value="backend">Backend Development</option>
+            <option value="cybersec">Cyber Security</option>
+        </select>
+        <br><br>
+         
+        <input type="checkbox" name="checkbox" id="checkbox" required>
+        <label for="checkbox">I agree to your terms and codnitions</label>
+        <br><br>
+
+        <fieldset>
+            <legend>Your learning schedule</legend>
+
+            <input type="radio" required id="morning" name="schedule" value="morning-time">
+            <label for="morning">Morning</label>
+
+            <input type="radio" id="evening" name="schedule" value="evening-time">
+            <label for="evening">Evening</label>
+
+            <input type="radio" id="noon" name="schedule" value="noon-time">
+            <label for="noon">Noon</label>
+        </fieldset>
+
+        <button type="submit">Submit Now</button>
+    </form>
+</body>
+</html>
