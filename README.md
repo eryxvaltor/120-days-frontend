@@ -73,7 +73,7 @@ Open `index.html` in a browser. No build step needed for the HTML + CSS phase.
 ## Connect
 
 - LinkedIn: [linkedin.com/in/fuadsec](https://linkedin.com/in/fuadsec)
-- GitHub: [@your-username](https://github.com/eryxvaltor)
+- GitHub: [@eryxvaltor](https://github.com/eryxvaltor)
 
 ## License
 
